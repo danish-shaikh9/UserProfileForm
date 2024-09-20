@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asgn#24-UserProfile_Form</title>
+    <link rel="stylesheet" href="./assets/css/form_style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>User Profile Form</h1>
+        <section id="box-form">
+            <form>
+                <h3>Identification</h3>
+            <div class="fullwidth">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username"placeholder="Username"/>
+            </div>
+            <div class="box-inline">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="First Name"/>
+            </div>
+            <div class="box-inline">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name"/>
+            </div>
+            <div class="box-inline">
+                <label for="Dob">Date of Birth:</label>
+                <input type="date" placeholder="DOB"/>
+            </div>
+            <div class="box-inline">
+                <label for="idno">Employee Id:</label>
+                <input type="number" placeholder="EMPL0102"/>
+            </div>
+            <div class="box-inline">
+                <label for="organization">Organization:</label>
+                <input type="text" placeholder="Organization/company name"/>
+            </div>
+                <h3>Contact Information</h3>
+            <div class="box-inline">               
+                <label for="phone">Phone No.:</label>
+                <input type="tel" placeholder="+91 1234567890"/>
+            </div>
+            <div class="box-inline">
+                <label for="email">Email:</label>
+                <input type="email" placeholder="sample@email.com"/>
+            </div>
+                <h3>Personal Information</h3>
+            <div class="box-inline">
+                <label for="education">Education:</label>
+                <input type="text" placeholder="education"/>
+            </div>
+            <div class="box-inline">
+                <label for="occupation">Occupation:</label>
+                <input type="text" placeholder="occupation"/>
+            </div>
+            <div class="box-inline">
+                <label for="religion">Religion:</label>
+                <input type="text" placeholder="religion"/>
+            </div>
+            <div class="box-inline">
+                <label for="laungage">Laungages Known:</label>
+                <input type="text" placeholder="laungages known"/>
+            </div>
+            <div class="gender samewidth box-inline">
+                <label for="gender">Gender:</label>
+                <input type="radio" id="gender_1" name="gender"/>
+                <label for="gender">Male</label>
+                <input type="radio" id="gender_2" name="gender"/>
+                <label for="gender">Female</label>
+                <input type="radio" id="gender_3" name="gender"/>
+                <label for="gender">Other</label>
+            </div>
+            <div class="m-status samewidth box-inline">
+                <label for="maritalstatus">Marital Status:</label>
+                <select>
+                    <option value="0"> Select </option>
+                    <option value="1"> Marrid</option>
+                    <option value="2"> Unmarrid</option>
+                </select>
+            </div>
+            <div class="samewidth box-inline">
+                <label for="child">No. of Chidren:</label>
+                <input type="number" />
+            </div>
+            <div class="fullwidth">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address"></textarea>
+            </div>
+            <div class="box-inline">
+                <label for="city">City:</label>
+                <input type="text" placeholder="City"/>
+            </div>
+            <div class="box-inline">
+                <label for="state">State:</label>
+                <input type="text" placeholder="State"/>
+            </div>
+            <div class="box-inline">
+                <label for="pin">Pin Code:</label>
+                <input type="text" placeholder="Pin Code"/>
+            </div>
+            <div class="box-inline">
+                <label for="country">Country</label>
+                <select>
+                    <option value="0">Select Country</option>
+                    <option value="1">India</option>
+                    <option value="2">Shrilanka</option>
+                    <option value="3">Bangladesh</option>
+                    <option value="4">China</option>
+                    <option value="5">Japan</option>
+                    <option value="6">Singapur</option>
+                    <option value="7">Pakistan</option>
+                    <option value="8">Maleshia</option>
+                    <option value="9">USA</option>
+                    <option value="10">Austrelia</option>
+                </select>
+            </div>
+            <div class="button">
+                 <input type="submit" value="Save" />
+                 <input type="reset" value="Reset" />
+            </div>
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>

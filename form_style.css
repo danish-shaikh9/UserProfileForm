@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0px auto;
+    background-color: #8ebbc8;
+    padding: 10px 50px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+    border-bottom: 4px solid white;
+    padding: 10px;
+    margin: 0px 0px 20px;
+    color:rgba(11, 3, 155, 0.791);
+}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    /* letter-spacing: 1 px; */
+    padding: 5px;
+    margin: 0px 0px 20px;
+    border-bottom: 2px solid wheat;
+    color: rgba(7, 2, 106, 0.791);
+}
+#box-form{
+    /* margin: 0px 20px; */
+}
+#box-form input,#box-form label, #box-form textarea{
+    /* display: block; */
+    font-size: 18px;
+    color: black;
+    margin:10px 50px;
+} 
+#box-form input,#box-form textarea{
+    font-size: 16px;
+    width: 95%;
+    padding: 6px 10px;
+}
+#box-form input[type="submit"],#box-form input[type="reset"]{
+    margin: 20px 5px;
+    padding:8px 12px;
+    background-color:rgb(127, 127, 136);
+    color:white;
+    width:120px;
+    cursor: pointer;
+    border:1px solid rgb(100, 100, 101);
+    border-radius: 6px;
+    /* float: right; */
+}
+.button{
+    text-align: center;
+}
+.box-inline{
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+}
+.samewidth{
+    width: 29%;
+}
+.fullwidth{
+    width:93%;
+}
